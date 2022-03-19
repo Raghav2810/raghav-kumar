@@ -1,12 +1,7 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
+
 html, body{
 	margin:0;
-	background:	#fff;
+	background:	 #f9f3f9 ;
 	font-family: 'Open Sans', sans-serif;
 }
 h4, h5, h6,
@@ -22,25 +17,25 @@ ul,label{
 	padding:0;
 }
 input[type="button"],input[type="submit"]{
-	transition:0.5s all;
-	-webkit-transition:0.5s all;
-	-moz-transition:0.5s all;
-	-o-transition:0.5s all;
-	-ms-transition:0.5s all;
+	transition:0.7s all;
+	-webkit-transition:0.7s all;
+	-moz-transition:0.7s all;
+	-o-transition:0.7s all;
+	-ms-transition:0.7s all;
 }
 body a{
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-ms-transition: 0.5s all;
+	transition: 0.7s all;
+	-webkit-transition: 0.7s all;
+	-o-transition: 0.7s all;
+	-moz-transition: 0.7s all;
+	-ms-transition: 0.7s all;
 	text-decoration:none;
 
 }
 body a:hover{
 	text-decoration:none;
 }
-/*-- to-top --*/
+
 #toTop {
 	display: none;
 	text-decoration: none;
@@ -65,8 +60,7 @@ body a:hover{
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
-/*-- //to-top --*/
-/*-- resume --*/
+
 .header-top{
 	background:#10A7AF;
 	padding:20px 0;
@@ -143,7 +137,7 @@ ul.list-left li {
     -moz-background-size: cover;
 }
 
-/*-- //resume --*/
+
 .about {
     padding: 90px 0 0;
     border-bottom: 5px solid #E4E4E4;
@@ -178,7 +172,7 @@ p.abt-para {
 .abt-gd-left {
     padding-top: 200px;
 }
-/*--pie-chart---*/
+
 .pie-title-center {
   display: inline-block;
   position: relative;
@@ -216,8 +210,7 @@ h3.tittle:after, h3.tittle:before {
     color: #10A7AF;
     margin-bottom: 45px;
 }
-/*-- //about--*/
-/*-- Accordion --*/
+
 .accordion, .accordion * {
 	-webkit-box-sizing:border-box; 
 	-moz-box-sizing:border-box; 
@@ -229,7 +222,7 @@ h3.tittle:after, h3.tittle:before {
 	background:#f7f7f7;
     border: 1px solid #CACACA;
 }
-/*----- Section Titles -----*/
+
 .accordion-section-title {
     width: 100%;
     display: inline-block;
@@ -301,8 +294,7 @@ a.accordion-section-title span {
     color: #10A7AF;
     font-weight: 100;
 }
-/*-- Section Content --*/
-/*-- employment --*/
+
 .employment{
 	padding:90px 0;
 }
@@ -386,8 +378,7 @@ a.accordion-section-title span {
 	border-top: 1px solid #B1B1B1;
 	border-bottom: 1px solid #B1B1B1;
 }
-/*-- //employment --*/
-/*-- numscroller --*/
+
 .num-scroller{
     background: url(../images/pic7.jpg) no-repeat center;
     background-size: cover;
@@ -416,7 +407,7 @@ a.accordion-section-title span {
     font-weight: 500;
     text-transform: uppercase;
 }
-/*-- //numscroller --*/
+
 .portfolio{
 	padding:90px 0;
     border-bottom: 5px solid #E4E4E4;
@@ -578,7 +569,7 @@ button.close{
 div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,div#portfolioModal5,div#portfolioModal6,div#portfolioModal7,div#portfolioModal8,div#portfolioModal9,div#portfolioModal10 {
     background: rgba(0, 0, 0, 0.55);
 }
-/*-- portfolio --*/
+
 
 #portfolio .portfolio-item {
     right: 0;
@@ -680,8 +671,7 @@ div#portfolioModal1,div#portfolioModal2,div#portfolioModal3,div#portfolioModal4,
 .yes_marg{
 	margin-top:30px;
 }
-/*-- //portfolio --*/
-/*-- skills --*/
+
 .more {
     padding: 90px 0;
 }
@@ -782,8 +772,7 @@ text-align:right;
     overflow-y: scroll;
     padding: 0em 0em 0;
 }
-/*-- //skills --*/
-/*-- contact --*/
+
 .contact {
     background: #272727;
     padding: 90px 0;
@@ -927,8 +916,7 @@ background:#fff;
     padding: 9px 18px;
 	border-radius:0px;
 }
-/*-- //contact --*/
-/*-- responsive media queries --*/
+
 
 @media (max-width: 1440px){
 	.thumb:hover ul li {
